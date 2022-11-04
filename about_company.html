@@ -1,0 +1,972 @@
+
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/map/jvectormap.css">
+    <link rel="stylesheet" href="/swiper.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="dist/plyr.css"/>
+
+</head>
+<body data-page-type="about_company">
+<div class="search_background_fon"></div>
+<div class="search_block">
+    <div class="container">
+        <div class="search_block_content">
+            <div class="search_block_content_container">
+                <form action="?page=mainpage" method="get">
+                    <div class="close_search_block">
+                        <img src="/icons/closing_icon.svg" alt="">
+                    </div>
+                    <div class="search_block_continer_row1">
+                        <input type="text" name="searching" id="" placeholder="Поставил курсор и вводит текст">
+                        <button class="search_block_button">
+                            <img src="/icons/search_bg.svg" alt="">
+                            <span>Искать</span>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="search_block_continer_row2">
+                    <div class="search_block_continer_row2_header">
+                        Примеры запросов
+                    </div>
+                    <div class="search_block_continer_row2_content">
+                        <div>Песчано-щебеночные смеси</div>
+                        <div>Подрядные работы</div>
+                        <div>Гранит</div>
+                        <div>Погрузочно-разгрузочные работы</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile_search_block">
+    <div class="mobile_search_block_row1">
+        <img src="/icons/closing_icon.svg" alt="" class="mobile_search_block_close_button">
+    </div>
+    <form action="#" method="get">
+        <div class="mobile_search_block_row2">
+            <input type="text" name="name" placeholder="Введите запрос">
+            <button class="mobile_search_button"><img src="icons/search_icon.svg" alt=""> </button>
+        </div>
+    </form>
+    <div class="mobile_search_block_row3">
+        Примеры запросов
+    </div>
+    <div class="mobile_search_block_row4">
+        <div>Песчано-щебеночные смеси</div>
+        <div>Подрядные работы</div>
+        <div>Гранит</div>
+        <div>Погрузочно-разгрузочные работы</div>
+    </div>
+</div>
+
+<div class="header">
+    <div class="mobile_menu_block">
+        <a href="?page=products">Продукция</a>
+        <a href="?page=services">Услуги</a>
+        <a href="?page=about_company">О компании</a>
+        <a href="?page=career">Карьеры</a>
+        <a href="?page=projects">Проекты</a>
+        <a href="?page=contacts">Контакты</a>
+        <a href="?page=mainpage">Главная</a>
+        <div class="mobile_menu_search">
+            <span class="search_for_all_mobile">Поиск</span>
+            <img src="/icons/search_icon.svg" alt="">
+        </div>
+
+        <div class="menu_line"></div>
+        <div class="mobile_menu_contacts">
+            <a href="mailto:info@nkrss.ru">info@nkrss.ru</a>
+        </div>
+        <div class="mobile_menu_contacts">
+            <a href="tel:+8007000500">8 800 7000 500</a>
+        </div>
+        <div class="mobile_menu_region">
+            г. Новый
+            <br>
+            Уренгой Промысловая ул., 23
+        </div>
+    </div>
+    <div class="container">
+        <div class="header_wrapper">
+            <div class="header_left_block">
+                <div class="header_logo">
+                    <a href="mainpage.html">
+                        <div class="header_logo_bg">
+                            <span class="header_logo_bg_pc"><img src="icons/logoSTK.svg" alt=""></span>
+                            <div class="header_logo_bg logo_bg_footer_mobile">
+                                <span class=""><img src="/icons/logoSTK.svg" alt=""></span>
+                            </div> <!--close header_logo_bg-->
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div> <!--close header_logo-->
+                <div class="block_choose_citys">
+                    <div class="header_col_and_city_col1">
+                        <div class="choose_city" id="starting_city" data-page-type="about_company">
+                            Ханты-Мансийск
+                        </div>
+                        <div class="mobile_call_message_block">
+                            <a href="tel:+78007000500">
+                                <div class="call_message">
+                                    <img src="/icons/mobile_header_phone_boder.svg" alt="">
+                                </div>
+                            </a>
+
+                            <a href="mailto:info@nkrss.ru" target="_blank" rel="noopener noreferrer">
+                                <div class="call_message">
+                                    <img src="/icons/mobile_header_massage.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_col_and_city_col2">
+                        <div class="arow" data-page-type="about_company"></div>
+                    </div>
+
+                    <div class="list_of_cities">
+                        <span >Выберите ваш город</span>
+                        <form action="#" method="get">
+                            <div class="mobile_city_search_block">
+                                <input class="mobile_search_inp" type="text" name="city"  placeholder="Начните вводить название">
+                                <button class="search_city_btn">
+                                    <img src="icons/icon_search.svg" alt="" class="icon_search">
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="city_group">
+                            <ul class="all_cities">
+                                <li>Агириш</li>
+                                <li>Андра</li>
+                                <li>Барсово</li>
+                                <li>Белый Яр</li>
+                                <li>Берёзово</li>
+                                <li>Высокий</li>
+                                <li>Зеленоборск</li>
+                                <li>Игрим</li>
+                            </ul>
+                        </div><!--close sity_group-->
+                    </div> <!--close list_of_cities-->
+                </div>
+            </div> <!--close header_left_block-->
+
+            <div class="header_right_block">
+                <nav class="nav" data-page-type="about_company">
+                    <a href="products.html">
+                        <span class="four_dot" data-page-type="about_company">
+                                 <div class="four_dot_group" data-page-type="about_company">
+                                     <div class="dots d1"></div>
+                                     <div class="dots d2"></div>
+                                     <div class="dots d3"></div>
+                                     <div class="dots d4"></div>
+                                 </div>
+                           <span>Продукция</span>
+                        </span>
+                    </a>
+                    <a href="services.html">Услуги</a>
+                    <a href="about_company.html">О компании</a>
+                    <a href="career.html">Карьеры</a>
+                    <a href="projects.html">Проекты</a>
+                    <a href="contacts.html">Контакты</a>
+                    <span class="search_for_all" data-page-type="about_company"> </span>
+                </nav>
+            </div>
+            <!--mobile right menu-->
+            <div class="header_right_block_mobile">
+                <div class="header_right_block_mobile_menu" data-page-type="about_company">
+                    <div class="header_right_block_mobile_menu_innerLins menu_innerLins_top"></div>
+                    <div class="header_right_block_mobile_menu_innerLins menu_innerLins_bottom"></div>
+                </div>
+            </div>
+            <!--end mobile right menu-->
+        </div> <!--close header_wrapper-->
+
+        <!--<div class="city_block"></div>  close list_of_cities-->
+        <div class="is_your_city_block">
+            <div class="is_your_city">Ваш город <span id="your_city"></span>?</div>
+            <div class="answer">
+                <div class="answer_yes" onclick="fixing_city()"> Да</div>
+                <div class="answer_no" onclick="transform_arow()">Нет</div>
+            </div>
+        </div>
+
+    </div> <!--close container-->
+</div> <!--close header-->
+
+<div class="orders_form_block">
+    <div class="order_form">
+        <div class="order_form_line_close">
+            <img src="/icons/closing_icon.svg" alt="">
+        </div>
+        <div class="order_form_container">
+            <div class="order_form_header">
+                Заголовок формы
+            </div>
+            <div class="order_form_content">
+                Заполните поля и наш менеджер свяжется с вами.
+            </div>
+            <div class="order_form_form_blocl">
+                <form action="" method="get" class="order_form_form">
+                    <div class="order_form_inputs_block">
+                        <input type="text" name="nema" placeholder="Иван Петрович">
+                        <input type="number" name="phone" placeholder="Номер телефона*">
+                    </div>
+                    <button class="order_btn">
+                        <div class="section_3_content_item_footer">
+                            <div class="section_3_content_item_footer_button">
+                                <div class="around_line">
+                                    <div class="arow_blocks">
+                                        <span class="arow_red_bj"></span>
+                                        <span class="arow_black_bj"></span>
+                                    </div>
+                                </div>
+                                <span class="hover_color">Отправить</span>
+                            </div>
+                        </div>
+                    </button>
+                </form>
+            </div>
+            <div class="order_form_footer">
+                Отправляя заявку, я соглашаюсь на
+                обработку моей персональной информации на условиях,
+                определенных Политикой конфиденциальности.
+            </div>
+        </div>
+    </div><!--end order_form-->
+</div>
+
+
+<div class="mobile_for_hiden_content">
+    <hr class="all_hr">
+    <hr class="all_hr_mobile">
+    <div class="about_company_content">
+        <div class="all_section1 container about_company_section1_header">
+            <div class="all_section1_smallhead">
+                <a href="?page=mainpage"><span> Главная </span>
+                </a>
+                <span class="all_section1_smallhead_col2">/ О компании</span>
+            </div>
+            <div class="all_section1_content">
+                <div class="all_section1_content_col1">
+                    <h1 class="h1_102_500">О компании</h1>
+                </div>
+                <div class="all_section1_content_col2">
+                    ​Сегодня “СТК” – это технологичная компания с богатым опытом и
+                    <br>
+                    профессиональным коллективом. А в завтрашний день мы войдем
+                    <br>
+                    как лидер  в области инноваций и самых современных технологий».
+                </div>
+            </div>
+        </div><!--end all_section1-->
+        <hr class="all_hr">
+        <hr class="all_hr_mobile">
+        <div class="about_company_content_block_section2 container">
+            <div class="about_company_content_block_section1_row1">
+                <div class="products_filter_block_row1">
+                    <span class="with_red_dot">Вводная информация по существу</span>
+                </div>
+            </div>
+
+            <div class="products_section2_header_block">
+                <div class="products_section2_header_block_head about_company_header_block_head">
+                    <h2 class="h2_48_500">
+                        Разрабатываем и оптимизируем схемы логистики любых грузов
+                    </h2>
+                </div>
+                <div class="products_section2_header_block_content about_company_header_block_content">
+                    Площади открытого хранения, отапливаемые складские помещения, собственный парк автомобильной и специальной техники для оперативной погрузо-разгрузочной работы, высококвалифицированный персонал с огромным положительным опытом работы позволяют решать многофункциональные задачи различной сложности, удовлетворять требования заказчиков на самом высоком уровне качества.
+                </div>
+            </div>
+        </div><!--end about_company_content_block_section2-->
+        <div class="about_company_content_block_section3 container">
+            <div class="section_2_head">
+                <span class="with_red_dot">Достижения компании</span>
+            </div>
+            <div class="section_2_content_block  about_company_section3_row2">
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">многолетний опыт</div>
+                    <div class="section_2_content_item_content">25 лет</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        на рынке нерудных материалов
+                    </div>
+                </div>
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">комплексный подход</div>
+                    <div class="section_2_content_item_content">&gt; 1500</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        Комплексных поставок реализуется ежегодно
+                    </div>
+                </div>
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">масштаб</div>
+                    <div class="section_2_content_item_content choosed">&gt; 1 млн</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        Тонн щебня 4 тыс. дорожных плит ПДН и 10 тыс. тонн цемента отгружаем ежегодно
+                    </div>
+                </div>
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">широкая география</div>
+                    <div class="section_2_content_item_content">16</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        Офисов продаж по всей Росии и СНГ открыто за 4 года
+                    </div>
+                </div>
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">многолетний опыт</div>
+                    <div class="section_2_content_item_content">25 лет</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        на рынке нерудных материалов
+                    </div>
+                </div>
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">комплексный подход</div>
+                    <div class="section_2_content_item_content">&gt; 1500</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        Комплексных поставок реализуется ежегодно
+                    </div>
+                </div>
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">масштаб</div>
+                    <div class="section_2_content_item_content choosed">&gt; 1 млн</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        Тонн щебня 4 тыс. дорожных плит ПДН и 10 тыс. тонн цемента отгружаем ежегодно
+                    </div>
+                </div>
+                <div class="section_2_content_item">
+                    <div class="section_2_content_item_header">широкая география</div>
+                    <div class="section_2_content_item_content">16</div>
+                    <div class="section_2_content_item_line"></div>
+                    <div class="section_2_content_item_footer">
+                        Офисов продаж по всей Росии и СНГ открыто за 4 года
+                    </div>
+                </div>
+            </div>
+        </div><!--end about_company_content_block_section3-->
+        <div class="about_company_content_block_dark_section widht_holder_1920">
+            <div class="container">
+                <div class="about_company_content_block_dark_section_content">
+                    <div class="about_company_content_block_dark_section_col1">
+                        <div class="about_company_content_block_dark_section_col1_row1">
+                            <span class="with_red_dot">Ценности</span>
+                        </div>
+                        <div class="about_company_content_block_dark_section_col1_row2">
+                            <div class="about_company_content_block_dark_section_col1_row2_header">
+                                Purus urna, enim pellentesque mi adipiscing
+                            </div>
+                            <div class="about_company_content_block_dark_section_col1_row2_content">
+                                Площади открытого хранения, отапливаемые складские помещения,
+                                собственный парк автомобильной и специальной техники для оперативной
+                                погрузо-разгрузочной работы, высококвалифицированный персонал с огромным
+                                положительным опытом работы позволяют решать многофункциональные задачи различной
+                                сложности, удовлетворять требования заказчиков на самом высоком уровне качества.
+                            </div>
+
+                        </div>
+                    </div><!--about_company_content_block_dark_section_col1-->
+
+                    <div class="about_company_content_block_dark_section_col2">
+                        <div>Лидерство</div>
+                        <div>Качество</div>
+                        <div>Команда</div>
+                        <div>Ответсвенность</div>
+                        <div>Компетентность</div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end about_company_content_block_darck_section-->
+
+        <div class="about_company_content_block_section5">
+            <div class="container">
+                <div class="section_5_header">
+                    <div class="section_5_header_col1">
+                        <div class="section_5_header_col1_head">
+                            <span>Не боимся масштабных задач</span>
+                        </div>
+                        <div class="section_5_header_col1_content">
+                        <span>
+                           <h2 class="h2_72_500">Проекты</h2>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="section_5_header_col2">
+                        <a href="?page=projects">
+                            <span>Все проекты</span>
+                        </a>
+                    </div>
+                </div> <!--close section_5_header-->
+            </div>
+            <div class="section_5_content widht_holder_1920 margintop90">
+                <div class="section_5_header_col2_mobile_header">
+                    <div class="section_5_content_col1">
+                        <div class="section_5_content_col1_LefRight swiper-button-disabled" id="project_slide_left" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-b573505eea106aa19" aria-disabled="true">
+                            <img src="/icons/arrow_left_26.svg" alt="">
+                        </div>
+
+                        <div class="section_5_content_col1_LefRight" id="project_slide_Right" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-b573505eea106aa19" aria-disabled="false">
+                            <img src="/icons/arrow_right_26.svg" alt="">
+                        </div>
+
+                    </div>
+                    <a href="?page=projects">
+                        <div class="section_5_header_col2_mobile">
+                            <span>Все проекты</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="section_5_content_slider">
+                    <div class="swiper-container_all_project_slide swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-b573505eea106aa19" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 494.667px; margin-right: 50px;">
+                                <a class="clide_cols" href="?page=projects_second_level">
+                                    <div class="section_5_content_cols">
+                                        <div class="section_5_content_cols_head">
+                                            <span>Строительство участка дороги с&nbsp;РЖД</span>
+                                        </div>
+                                        <div class="section_5_content_cols_content1">
+                                            <img src="/images/Ellipse%2051.png" alt="">
+                                        </div>
+                                        <div class="section_5_content_cols_footer">
+                                            <span>Строительство участка железной дороги Екатеринбург - Приобъе</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 4" style="width: 494.667px; margin-right: 50px;">
+                                <a  class="clide_cols" href="?page=projects_second_level">
+                                    <div class="section_5_content_cols">
+                                        <div class="section_5_content_cols_head">
+                                            <span>Строительство участка дороги с&nbsp;РЖД</span>
+                                        </div>
+                                        <div class="section_5_content_cols_content1">
+                                            <img src="/images/Ellipse%2051.png" alt="">
+                                        </div>
+                                        <div class="section_5_content_cols_footer">
+                                            <span>Строительство участка железной дороги Екатеринбург - Приобъе</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="3 / 4" style="width: 494.667px; margin-right: 50px;">
+                                <a  class="clide_cols" href="?page=projects_second_level">
+                                    <div class="section_5_content_cols">
+                                        <div class="section_5_content_cols_head">
+                                            <span>Строительство участка дороги с&nbsp;РЖД</span>
+                                        </div>
+                                        <div class="section_5_content_cols_content1">
+                                            <img src="/images/Ellipse%2051.png" alt="">
+                                        </div>
+                                        <div class="section_5_content_cols_footer">
+                                            <span>Строительство участка железной дороги Екатеринбург - Приобъе</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="4 / 4" style="width: 494.667px; margin-right: 50px;">
+                                <a class="clide_cols" href="?page=projects_second_level">
+                                    <div class="section_5_content_cols">
+                                        <div class="section_5_content_cols_head">
+                                            <span>Строительство участка дороги с&nbsp;РЖД</span>
+                                        </div>
+                                        <div class="section_5_content_cols_content1">
+                                            <img src="/images/Ellipse%2051.png" alt="">
+                                        </div>
+                                        <div class="section_5_content_cols_footer">
+                                            <span>Строительство участка железной дороги Екатеринбург - Приобъе</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="about_company_content_block_section6 container">
+            <div class="about_company_content_block_section2">
+                <div class="about_company_content_block_section1_row1">
+                    <div class="products_filter_block_row1">
+                        <!--                            <div class="red_dot"></div>-->
+                        <span class="with_red_dot">Состав услуги</span>
+                    </div>
+                </div>
+
+                <div class="products_section2_header_block" id="about_compani_licenzAndDock">
+                    <div class="products_section2_header_block_head about_company_header_block_head">
+                        <h2 class="h2_48_500">Лицензии и документы</h2>
+                    </div>
+                    <div class="about_company_content_block_section6_docs">
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                        <div class="about_company_header_block_content_cols">
+                            <a href="/documents/testing_pdf.pdf"><img src="/icons/pdfDock.png" alt=""></a>
+                            <div class="about_company_header_block_content_cols_col2">Urna, enim pulvinar lobortis sodales fusce est malesuad</div>
+                        </div>
+                    </div><!--end about_company_header_block_content-->
+                </div>
+            </div>
+            <div class="about_company_content_block_section6_get_more">
+                <a href="#">
+                    <div class="products_section2_get_more">
+                        <div class="products_load_more">
+                            <div class="products_load_more_horizontal"></div>
+                            <div class="products_load_more_vertical"></div>
+                        </div>
+                        Загрузить ещё
+                    </div>
+                </a>
+            </div>
+        </div><!--end about_company_content_block_section6-->
+        <div class="about_company_content_block_section7 container" id="about_compani_team">
+            <div class="about_company_content_block_section7_header">
+                <div class="about_company_content_block_section7_header_col1">
+                    <h2 class="h2_48_500">Команда</h2>
+                </div>
+                <div class="about_company_content_block_section7_header_col2">
+                    <div class="section_5_content_col1_LefRight" id="about_company_section7_left">
+                        <img src="/icons/arrow_left_26.svg" alt="">
+                    </div>
+                    <div class="section_5_content_col1_LefRight" id="about_company_section7_right">
+                        <img src="/icons/arrow_right_26.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="about_company_content_block_section7_images">
+                <div class="swiper-container_about_company_team">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="about_company_content_block_section7_images_cols">
+                                <img src="/images/Team/Platform 6_Team 2_00011 2.png" alt="">
+                                <div class="about_company_content_block_section7_images_cols_header">
+                                    Mailmail@ncrss.ru
+                                </div>
+                                <div class="about_company_content_block_section7_images_cols_content">
+                                    <div class="about_company_content_block_section7_images_cols_content_header">
+                                        Олег Олегович Мартыненко
+                                    </div>
+                                    <div class="about_company_content_block_section7_images_cols_content_content">
+                                        Генеральный директор
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="about_company_content_block_section7_images_cols">
+                                <img src="/images/Team/Platform 6_Team 2_00011 2.png" alt="">
+                                <div class="about_company_content_block_section7_images_cols_header">
+                                    Mailmail@ncrss.ru
+                                </div>
+                                <div class="about_company_content_block_section7_images_cols_content">
+                                    <div class="about_company_content_block_section7_images_cols_content_header">
+                                        Олег Олегович Мартыненко
+                                    </div>
+                                    <div class="about_company_content_block_section7_images_cols_content_content">
+                                        Генеральный директор
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="about_company_content_block_section7_images_cols">
+                                <img src="/images/Team/Platform 6_Team 2_00011 2.png" alt="">
+                                <div class="about_company_content_block_section7_images_cols_header">
+                                    Mailmail@ncrss.ru
+                                </div>
+                                <div class="about_company_content_block_section7_images_cols_content">
+                                    <div class="about_company_content_block_section7_images_cols_content_header">
+                                        Олег Олегович Мартыненко
+                                    </div>
+                                    <div class="about_company_content_block_section7_images_cols_content_content">
+                                        Генеральный директор
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="about_company_content_block_section7_images_cols">
+                                <img src="/images/Team/Platform 6_Team 2_00011 2.png" alt="">
+                                <div class="about_company_content_block_section7_images_cols_header">
+                                    Mailmail@ncrss.ru
+                                </div>
+                                <div class="about_company_content_block_section7_images_cols_content">
+                                    <div class="about_company_content_block_section7_images_cols_content_header">
+                                        Олег Олегович Мартыненко
+                                    </div>
+                                    <div class="about_company_content_block_section7_images_cols_content_content">
+                                        Генеральный директор
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="about_company_content_block_section7_images_cols">
+                                <img src="/images/Team/Platform 6_Team 2_00011 2.png" alt="">
+                                <div class="about_company_content_block_section7_images_cols_header">
+                                    Mailmail@ncrss.ru
+                                </div>
+                                <div class="about_company_content_block_section7_images_cols_content">
+                                    <div class="about_company_content_block_section7_images_cols_content_header">
+                                        Олег Олегович Мартыненко
+                                    </div>
+                                    <div class="about_company_content_block_section7_images_cols_content_content">
+                                        Генеральный директор
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end about_company_content_block_section7-->
+        <div class="about_company_content_block_section8 container">
+            <div class="career_content_navigate_map">
+                <div class="about_company_content_navigate_map_col1">
+                    <div class="about_company_content_navigate_map_col1_row1">
+                        <div class="products_filter_block_row1">
+                            <!--                                <div class="red_dot"></div>-->
+                            <span class="with_red_dot">Развитая сеть карьеров</span>
+                        </div>
+                    </div>
+                    <div class="about_company_content_navigate_map_col1_row2">
+                        <h2 class="h2_48_500">
+                            Наши карьеры
+                        </h2>
+                    </div>
+                    <div class="about_company_content_navigate_map_col1_row3">
+                        <div class="section_6_block_col1_content_content">
+                            <span data-region="RU-YAN">Ямало-Ненецкий&nbspавтономный&nbspокруг</span>
+                            <span data-region="RU-KHM">Ханты-Максийский&nbspавтономный&nbspокруг</span>
+                            <span data-region="RU-SVE">Свердловская&nbspобласть</span>
+                            <span data-region="RU-PER">Пермский&nbspкрай</span>
+                            <span data-region="RU-TYU">Тюменская&nbspобласть</span>
+                            <span data-region="RU-KO">Республика&nbspКоми</span>
+                            <span data-region="RU-BA">Республика&nbspБашкортостан</span>
+                            <span data-region="RU-NEN">Ненецкий&nbspавтономный&nbspокруг</span>
+                            <span data-region="RU-MOS">Московская&nbspобласть</span>
+                            <span data-region="RU-OMS">Омская&nbspобласть</span>
+                            <span data-region="RU-TOM">Томская&nbspобласть</span>
+                            <span data-region="RU-SA">Республика&nbspЯкутия</span>
+                            <span data-region="RU-AMU">Амурская&nbspобласть</span>
+                            <span data-region="RU-BU">Бурятия</span>
+                            <span data-region="RU-ZAB">Забайкальский&nbspкрай</span>
+                            <span data-region="RU-ARK">Архангельская&nbspобласть</span>
+                            <span data-region="RU-KR">Карелия</span>
+                            <span data-region="RU-AST">Астраханская&nbspобласть</span>
+                        </div>
+                    </div>
+                    <div class="section_3_content_item_footer">
+                        <a href="?page=career">
+                            <div class="section_3_content_item_footer_button">
+                                <div class="around_line">
+                                    <div class="arow_blocks">
+                                        <span class="arow_red_bj"></span>
+                                        <span class="arow_black_bj"></span>
+                                    </div>
+                                </div>
+                                <span class="hover_color">Карьеры </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="career_content_navigate_map_col2 for_mobile_hidden">
+                    <div id="map" style="width: 100%; height: 100%"></div>
+                </div>
+            </div>
+        </div><!--end about_company_content_block_section8-->
+        <div class="about_company_content_block_section9 container">
+            <div class="section_7_head">
+                <span class="with_red_dot">Наши партнеры</span>
+            </div>
+
+            <div class="section_7_content">
+                <div class="partner1">
+                    <img src="/images/image%20151.png" alt="">
+                </div>
+                <div class="partner2">
+                    <img src="/images/image%20152.png" alt="">
+                </div>
+                <div class="partner3">
+                    <img src="/images/image%20150.png" alt="">
+                </div>
+                <div class="partner4">
+                    <img src="/images/image%20153.png" alt="">
+                </div>
+                <div class="partner5">
+                    <img src="/images/image%20154.png" alt="">
+                </div>
+                <div class="partner6">
+                    <img src="/images/image%20146.png" alt="">
+                </div>
+                <div class="partner7">
+                    <img src="/images/image%20147.png" alt="">
+                </div>
+            </div>
+        </div><!--end about_company_content_block_section9-->
+        <div class="about_company_content_block_section10 container">
+            <div class="about_company_content_block_section1_row1">
+                <div class="products_filter_block_row1">
+                    <!--                        <div class="red_dot"></div>-->
+                    <span class="with_red_dot">О нас говорят</span>
+                </div>
+            </div>
+            <div class="products_section2_header_block" id="about_company_feedback">
+                <div class="products_section2_header_block_head about_company_header_block_head">
+                    <h2 class="h2_48_500">
+                        Рекомендации и отзывы
+                    </h2>
+                </div>
+            </div>
+        </div><!--end about_company_content_block_section10-->
+        <div class="about_company_content_block_section11 container">
+            <div class="section_5_content  mobile_about_compan_ysection_5">
+                <div class="section_5_content_col1 mobile_section_5_content_col1">
+                    <div class="section_5_content_col1_LefRight about_company_arrow  about_company_arrow_toleft">
+                        <img src="/icons/project_arrow_left.png" alt="">
+                    </div>
+                    <div class="section_5_content_col1_LefRight about_company_arrow about_company_arrow_toright">
+                        <img src="/icons/project_arrow_right.png" alt="">
+                    </div>
+                </div>
+                <div class="section_5_content_slide_block">
+                    <div class="swiper-container_about_company_feedback  swiper_block">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ">
+                                <div class="about_company_content_block_section11_slider_cols">
+                                    <div class="about_company_content_block_section11_slider_cols_row1">
+                                        <div class="about_company_content_block_section11_slider_cols_row1_hed">
+                                            Иван Ходоковский
+                                        </div>
+                                        <div class="about_company_content_block_section11_slider_cols_row1_content">
+                                            Гениральный директор ООО “Вектор”
+                                        </div>
+                                    </div>
+                                    <div class="about_company_content_block_section11_slider_cols_row2">
+                                        <div class="about_company_content_block_section11_slider_cols_row2_col1">
+                                            1 Mauris vitae aenean risus purus et fames pellentesque diam quis.
+                                            Purus gravida purus faucibus aliquet neque egestas in risus.
+                                            Nulla mi quis sed nisl gravida dictumst. Nulla donec odio vestibulum,
+                                            elementum. Neque, vel nunc, eu turpis in lacinia gravida ipsum
+                                            pellentesque. Mauris vitae aenean risus purus et fames pellentesque
+                                            diam quis. Purus gravida purus faucibus aliquet neque egestas in risus.
+                                            Nulla mi quis sed nisl gravida dictumst. Nulla donec odio vestibulum,
+                                            elementum. Neque, vel nunc, eu turpis in lacinia gravida ipsum
+                                            pellentesque.
+                                        </div>
+                                        <div class="about_company_content_block_section11_slider_cols_row2_col2">
+                                            <img src="/images/document1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div><!--end about_company_content_block_section11_slider_cols-->
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="about_company_content_block_section11_slider_cols">
+                                    <div class="about_company_content_block_section11_slider_cols_row1">
+                                        <div class="about_company_content_block_section11_slider_cols_row1_hed">
+                                            Иван Ходоковский
+                                        </div>
+                                        <div class="about_company_content_block_section11_slider_cols_row1_content">
+                                            Гениральный директор ООО “Вектор”
+                                        </div>
+                                    </div>
+                                    <div class="about_company_content_block_section11_slider_cols_row2">
+                                        <div class="about_company_content_block_section11_slider_cols_row2_col1">
+                                            1 Mauris vitae aenean risus purus et fames pellentesque diam quis.
+                                            Purus gravida purus faucibus aliquet neque egestas in risus.
+                                            Nulla mi quis sed nisl gravida dictumst. Nulla donec odio vestibulum,
+                                            elementum. Neque, vel nunc, eu turpis in lacinia gravida ipsum
+                                            pellentesque. Mauris vitae aenean risus purus et fames pellentesque
+                                            diam quis. Purus gravida purus faucibus aliquet neque egestas in risus.
+                                            Nulla mi quis sed nisl gravida dictumst. Nulla donec odio vestibulum,
+                                            elementum. Neque, vel nunc, eu turpis in lacinia gravida ipsum
+                                            pellentesque.
+                                        </div>
+                                        <div class="about_company_content_block_section11_slider_cols_row2_col2">
+                                            <img src="/images/document1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div><!--end about_company_content_block_section11_slider_cols-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper_pagination pagination_dots"></div>
+                </div>
+            </div><!--end section_5_content  mobile_about_compan_ysection_5-->
+        </div><!--end about_company_content_block_section11-->
+    </div><!--end about_company_content-->
+
+
+    <div class="navigation_block">
+        <hr class="all_hr">
+        <hr class="all_hr_mobile">
+        <div class="container">
+            <a href="?page=products">
+                <div class="navigation_head_row">
+                    <div class="navigation_head_row_col1">Продукция</div>
+                    <div class="navigation_head_row_pointer_right"></div>
+                </div>
+            </a>
+        </div><!--end container-->
+        <hr class="all_hr">
+        <hr class="all_hr_mobile">
+        <div class="container">
+            <a href="?page=services">
+                <div class="navigation_head_row">
+                    <div class="navigation_head_row_col1">Услуги</div>
+                    <div class="navigation_head_row_pointer_right"></div>
+                </div>
+            </a>
+        </div><!--end container-->
+    </div>
+
+    <hr class="all_hr ">
+    <hr class="all_hr_mobile">
+    <footer class="footer widht_holder_1920 ">
+        <!--        <div class="container">-->
+        <div class="footer_block">
+            <div class="footer_content_footer_block_col1">
+                <div class="footer_content_footer_block_col1_row1">
+                    <div class="footer_content_footer_block_col1_row1_head">
+                        Контакты
+                    </div>
+                    <div class="footer_content_footer_block_col1_row1_content">
+                        <div>
+                            <a href="mailto:info@nkrss.ru">info@nkrss.ru </a>
+                        </div>
+
+                        <div>
+                            <a href="tel:+78007000500">8 800 7000 500</a>
+                        </div>
+                        <span class="footer_content_footer_block_col1_row1_content_footer">
+                            г. Новый Уренгой
+                            Промысловая ул., 23
+                        </span>
+                    </div>
+                </div><!--end footer_content_footer_block_col1_row1-->
+                <div class="footer_content_footer_block_col1_row2">
+                    <a href="?page=mainpage">
+                        <div class="header_logo_bg">
+                            <span class=""><img src="icons/logoSTK.svg" alt=""></span>
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div>
+            </div>
+            <div class="footer_content_footer_block_col2">
+                <div class="footer_content_footer_block_col2_row1">
+                    <div class="footer_content_footer_block_col2_row1_col1">
+                        <a href="?page=about_company">О компании</a>
+                        <a href="?page=services_second_level">Каталог</a>
+                        <a href="?page=services_second_level">Логистика</a>
+                        <a href="?page=services_second_level">Подрядные работы</a>
+                        <a href="?page=contacts">Контакты</a>
+                    </div>
+                    <div class="footer_content_footer_block_col2_row1_col2">
+                        <a href="?page=projects">Проекты</a>
+                        <a href="?page=about_company#about_compani_licenzAndDock"> Лицензии и документы</a>
+                        <a href="?page=about_company#about_compani_team"> Команда</a>
+                        <a href="?page=about_company#about_company_feedback">Рекоммендации</a>
+                        <a href="?page=career">Карьеры</a>
+                    </div>
+
+                </div>
+                <hr class="all_hr all_hr_footer ">
+                <div class="footer_content_footer_block_col2_row2">
+                    <div class="footer_content_footer_block_col2_row2">
+                        <div class="footer_content_footer_block_col2_row2_content">
+                            <a href="">Карта сайта</a>
+                            <br>
+                            <a href="">Политика конфинденциальности</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        </div> end container-->
+        <hr class="all_hr_mobile hr_mobile_footer">
+        <div class="container">
+            <div class="footer_info_block_mobile">
+                <div class="footer_info_block_mobile_row1">
+                    <div class="footer_info_block_mobile_col1">Информация</div>
+                    <div class="footer_info_block_mobile_col2">
+                        <div class="footer_info_block_mobile_col2_horizontal"></div>
+                        <div class="footer_info_block_mobile_col2_vertically"></div>
+                    </div>
+                </div>
+                <div class="footer_info_block_mobile_row2">
+                    <a href="?page=projects">Проекты</a>
+                    <a href="?page=about_company#about_compani_licenzAndDock"> Лицензии и документы</a>
+                    <a href="?page=about_company#about_compani_team"> Команда</a>
+                    <a href="?page=about_company#about_company_feedback">Рекоммендации</a>
+                    <a href="?page=career">Карьеры</a>
+                </div>
+            </div>
+        </div>
+        <hr class="all_hr_mobile hr_mobile_footer ">
+        <div class="container">
+            <div class="footer_content_footer_block_col2_row2 footer_content_footer_mobile">
+                <div class="footer_content_footer_mobile_col1">
+                    <a href="">Карта сайта</a>
+                    <a href="">Политика конфинденциальности</a>
+                </div>
+                <div class="footer_content_footer_mobile_col2">
+                    <a href="mainpage.html">
+                        <div class="header_logo_bg logo_bg_footer_mobile">
+                            <span class=""><img src="/icons/logoSTK.svg" alt=""></span>
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="/map/jquery.js"></script>
+<script src="/map/jvectormap.js"></script>
+<script src="/map/jquery-jvectormap-ru-merc.js"></script>
+<script src="/map/js.js"></script>
+<script src="/dist/plyr.min.js"></script>
+<script src="/swiper.js"></script>
+<script src="/stkjs.js"></script>
+</body>
+</html>

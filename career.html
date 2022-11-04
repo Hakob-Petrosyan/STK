@@ -1,0 +1,648 @@
+
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/map/jvectormap.css">
+    <link rel="stylesheet" href="/swiper.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="dist/plyr.css"/>
+
+</head>
+<body data-page-type="career">
+<div class="search_background_fon"></div>
+<div class="search_block">
+    <div class="container">
+        <div class="search_block_content">
+            <div class="search_block_content_container">
+                <form action="?page=mainpage" method="get">
+                    <div class="close_search_block">
+                        <img src="/icons/closing_icon.svg" alt="">
+                    </div>
+                    <div class="search_block_continer_row1">
+                        <input type="text" name="searching" id="" placeholder="Поставил курсор и вводит текст">
+                        <button class="search_block_button">
+                            <img src="/icons/search_bg.svg" alt="">
+                            <span>Искать</span>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="search_block_continer_row2">
+                    <div class="search_block_continer_row2_header">
+                        Примеры запросов
+                    </div>
+                    <div class="search_block_continer_row2_content">
+                        <div>Песчано-щебеночные смеси</div>
+                        <div>Подрядные работы</div>
+                        <div>Гранит</div>
+                        <div>Погрузочно-разгрузочные работы</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile_search_block">
+    <div class="mobile_search_block_row1">
+        <img src="/icons/closing_icon.svg" alt="" class="mobile_search_block_close_button">
+    </div>
+    <form action="#" method="get">
+        <div class="mobile_search_block_row2">
+            <input type="text" name="name" placeholder="Введите запрос">
+            <button class="mobile_search_button"><img src="icons/search_icon.svg" alt=""> </button>
+        </div>
+    </form>
+    <div class="mobile_search_block_row3">
+        Примеры запросов
+    </div>
+    <div class="mobile_search_block_row4">
+        <div>Песчано-щебеночные смеси</div>
+        <div>Подрядные работы</div>
+        <div>Гранит</div>
+        <div>Погрузочно-разгрузочные работы</div>
+    </div>
+</div>
+
+
+<!--<img src="/images/billy-clouse-781VLZjFR8g-unsplash%20(1)%201.png" alt="">-->
+<div class="header">
+    <div class="mobile_menu_block">
+        <a href="?page=products">Продукция</a>
+        <a href="?page=services">Услуги</a>
+        <a href="?page=about_company">О компании</a>
+        <a href="?page=career">Карьеры</a>
+        <a href="?page=projects">Проекты</a>
+        <a href="?page=contacts">Контакты</a>
+        <a href="?page=mainpage">Главная</a>
+        <div class="mobile_menu_search">
+            <span class="search_for_all_mobile">Поиск</span>
+            <img src="/icons/search_icon.svg" alt="">
+        </div>
+
+        <div class="menu_line"></div>
+        <div class="mobile_menu_contacts">
+            <a href="mailto:info@nkrss.ru">info@nkrss.ru</a>
+        </div>
+        <div class="mobile_menu_contacts">
+            <a href="tel:+8007000500">8 800 7000 500</a>
+        </div>
+        <div class="mobile_menu_region">
+            г. Новый
+            <br>
+            Уренгой Промысловая ул., 23
+        </div>
+    </div>
+    <div class="container">
+        <div class="header_wrapper">
+            <div class="header_left_block">
+                <div class="header_logo">
+                    <a href="mainpage.html">
+                        <div class="header_logo_bg">
+                            <span class="header_logo_bg_pc"><img src="icons/logoSTK.svg" alt=""></span>
+                            <div class="header_logo_bg logo_bg_footer_mobile">
+                                <span class=""><img src="/icons/logoSTK.svg" alt=""></span>
+                            </div> <!--close header_logo_bg-->
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div> <!--close header_logo-->
+                <div class="block_choose_citys">
+                    <div class="header_col_and_city_col1">
+                        <div class="choose_city" id="starting_city" data-page-type="career">
+                            Ханты-Мансийск
+                        </div>
+                        <div class="mobile_call_message_block">
+                            <a href="tel:+78007000500">
+                                <div class="call_message">
+                                    <img src="/icons/mobile_header_phone_boder.svg" alt="">
+                                </div>
+                            </a>
+
+                            <a href="mailto:info@nkrss.ru" target="_blank" rel="noopener noreferrer">
+                                <div class="call_message">
+                                    <img src="/icons/mobile_header_massage.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_col_and_city_col2">
+                        <div class="arow" data-page-type="career"></div>
+                    </div>
+
+                    <div class="list_of_cities">
+                        <span >Выберите ваш город</span>
+                        <form action="#" method="get">
+                            <div class="mobile_city_search_block">
+                                <input class="mobile_search_inp" type="text" name="city"  placeholder="Начните вводить название">
+                                <button class="search_city_btn">
+                                    <img src="icons/icon_search.svg" alt="" class="icon_search">
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="city_group">
+                            <ul class="all_cities">
+                                <li>Агириш</li>
+                                <li>Андра</li>
+                                <li>Барсово</li>
+                                <li>Белый Яр</li>
+                                <li>Берёзово</li>
+                                <li>Высокий</li>
+                                <li>Зеленоборск</li>
+                                <li>Игрим</li>
+                            </ul>
+                        </div><!--close sity_group-->
+                    </div> <!--close list_of_cities-->
+                </div>
+            </div> <!--close header_left_block-->
+
+            <div class="header_right_block">
+                <nav class="nav" data-page-type="career">
+                    <a href="products.html">
+                        <span class="four_dot" data-page-type="career">
+                                 <div class="four_dot_group" data-page-type="career">
+                                     <div class="dots d1"></div>
+                                     <div class="dots d2"></div>
+                                     <div class="dots d3"></div>
+                                     <div class="dots d4"></div>
+                                 </div>
+                           <span>Продукция</span>
+                        </span>
+                    </a>
+                    <a href="services.html">Услуги</a>
+                    <a href="about_company.html">О компании</a>
+                    <a href="career.html">Карьеры</a>
+                    <a href="projects.html">Проекты</a>
+                    <a href="contacts.html">Контакты</a>
+                    <span class="search_for_all" data-page-type="career"> </span>
+                </nav>
+            </div>
+            <!--mobile right menu-->
+            <div class="header_right_block_mobile">
+                <div class="header_right_block_mobile_menu" data-page-type="career">
+                    <div class="header_right_block_mobile_menu_innerLins menu_innerLins_top"></div>
+                    <div class="header_right_block_mobile_menu_innerLins menu_innerLins_bottom"></div>
+                </div>
+            </div>
+            <!--end mobile right menu-->
+        </div> <!--close header_wrapper-->
+
+        <!--<div class="city_block"></div>  close list_of_cities-->
+        <div class="is_your_city_block">
+            <div class="is_your_city">Ваш город <span id="your_city"></span>?</div>
+            <div class="answer">
+                <div class="answer_yes" onclick="fixing_city()"> Да</div>
+                <div class="answer_no" onclick="transform_arow()">Нет</div>
+            </div>
+        </div>
+
+    </div> <!--close container-->
+</div> <!--close header-->
+
+<div class="orders_form_block">
+    <div class="order_form">
+        <div class="order_form_line_close">
+            <img src="/icons/closing_icon.svg" alt="">
+        </div>
+        <div class="order_form_container">
+            <div class="order_form_header">
+                Заголовок формы
+            </div>
+            <div class="order_form_content">
+                Заполните поля и наш менеджер свяжется с вами.
+            </div>
+            <div class="order_form_form_blocl">
+                <form action="" method="get" class="order_form_form">
+                    <div class="order_form_inputs_block">
+                        <input type="text" name="nema" placeholder="Иван Петрович">
+                        <input type="number" name="phone" placeholder="Номер телефона*">
+                    </div>
+                    <button class="order_btn">
+                        <div class="section_3_content_item_footer">
+                            <div class="section_3_content_item_footer_button">
+                                <div class="around_line">
+                                    <div class="arow_blocks">
+                                        <span class="arow_red_bj"></span>
+                                        <span class="arow_black_bj"></span>
+                                    </div>
+                                </div>
+                                <span class="hover_color">Отправить</span>
+                            </div>
+                        </div>
+                    </button>
+                </form>
+            </div>
+            <div class="order_form_footer">
+                Отправляя заявку, я соглашаюсь на
+                обработку моей персональной информации на условиях,
+                определенных Политикой конфиденциальности.
+            </div>
+        </div>
+    </div><!--end order_form-->
+</div>
+
+
+<div class="mobile_for_hiden_content">
+    <hr class="all_hr">
+    <hr class="all_hr_mobile">
+    <div class="career_content">
+        <div class="container">
+            <div class="all_section1">
+                <div class="all_section1_smallhead">
+                    <a href="?page=mainpage">
+                        <span > Главная  </span>
+                    </a>
+                    <span class="all_section1_smallhead_col2">/ Карьеры</span>
+                </div>
+                <div class="all_section1_content">
+                    <div class="all_section1_content_col1">
+                        <h1 class="h1_102_500">Карьеры</h1>
+                    </div>
+                    <div class="all_section1_content_col2">
+                        ​Сегодня “СТК” – это технологичная компания с богатым опытом и
+                        <br>
+                        профессиональным коллективом. А в завтрашний день мы войдем
+                        <br>
+                        как лидер  в области инноваций и самых современных технологий».
+                    </div>
+                </div>
+            </div><!--end all_section1-->
+        </div><!--end container-->
+        <hr class="all_hr">
+        <hr class="all_hr_mobile">
+        <div class="container career_container">
+
+            <div class="career_filter_block">
+                <div class="products_filter_block_col1">
+                    <div class="products_filter_block_row1">
+                        <span class="with_red_dot">Используйте для фильтрации карьеров</span>
+                    </div>
+                    <div class="products_filter_block_row2">
+                        <div class="products_filter_block_row2_cols">
+                            <div class="products_filter_block_row2_cols_col1">Щебень</div>
+                            <div class="products_filter_block_row2_cols_col2"><span>14</span></div>
+                        </div>
+                        <div class="products_filter_block_row2_cols">
+                            <div class="products_filter_block_row2_cols_col1">Песок</div>
+                            <div class="products_filter_block_row2_cols_col2"><span>23</span></div>
+                        </div>
+                        <div class="products_filter_block_row2_cols">
+                            <div class="products_filter_block_row2_cols_col1">Смеси</div>
+                            <div class="products_filter_block_row2_cols_col2"><span>2</span></div>
+                        </div>
+                        <div class="products_filter_block_row2_cols">
+                            <div class="products_filter_block_row2_cols_col1">Цемент</div>
+                            <div class="products_filter_block_row2_cols_col2"><span>2</span></div>
+                        </div>
+                    </div><!--end products_filter_block_row2-->
+                </div><!--end products_filter_block_col1-->
+
+                <div class="products_filter_block_col2 ">
+                    <div class="products_filter_block_row1">
+                        <span>Поиск по карьерам</span>
+                    </div>
+                    <form action="">
+                        <div class="products_filter_block_col2_row2">
+                            <input name="name" type="text" placeholder="Начните вводить название" class="career_dark_placeholder">
+                            <button><img src="/icons/search1.png" alt=""></button>
+                        </div><!--end products_filter_block_row2-->
+                    </form>
+                </div><!--end products_filter_block_col2-->
+            </div><!--end products_filter_block-->
+
+            <div class="career_content_block">
+                <a href="career_second_level.html" class="career_card">
+                    <div class="career_content_block_rows">
+                        <div class="career_content_block_rows_col1">Название карьера</div>
+                        <div class="career_content_block_rows_col2">г. Сангымгорт</div>
+                        <div class="career_content_block_rows_col3">
+                            <div>Щебень</div>
+                            <div>Песок</div>
+                            <div>Гранит</div>
+                        </div>
+                        <div class="career_content_block_rows_col4_block">
+                            <div class="career_content_block_rows_col4">
+                                <img src="/icons/career_row_right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="career_second_level.html" class="career_card">
+                    <div class="career_content_block_rows">
+                        <div class="career_content_block_rows_col1">Название карьера</div>
+                        <div class="career_content_block_rows_col2">г. Сангымгорт</div>
+                        <div class="career_content_block_rows_col3">
+                            <div>Щебень</div>
+                            <div>Песок</div>
+                            <div>Гранит</div>
+                        </div>
+                        <div class="career_content_block_rows_col4_block">
+                            <div class="career_content_block_rows_col4">
+                                <img src="/icons/career_row_right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="career_second_level.html" class="career_card">
+                    <div class="career_content_block_rows">
+                        <div class="career_content_block_rows_col1">Название карьера</div>
+                        <div class="career_content_block_rows_col2">г. Сангымгорт</div>
+                        <div class="career_content_block_rows_col3">
+                            <div>Щебень</div>
+                            <div>Песок</div>
+                            <div>Гранит</div>
+                        </div>
+                        <div class="career_content_block_rows_col4_block">
+                            <div class="career_content_block_rows_col4">
+                                <img src="/icons/career_row_right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="career_second_level.html" class="career_card">
+                    <div class="career_content_block_rows">
+                        <div class="career_content_block_rows_col1">Название карьера</div>
+                        <div class="career_content_block_rows_col2">г. Сангымгорт</div>
+                        <div class="career_content_block_rows_col3">
+                            <div>Щебень</div>
+                            <div>Песок</div>
+                            <div>Гранит</div>
+                        </div>
+                        <div class="career_content_block_rows_col4_block">
+                            <div class="career_content_block_rows_col4">
+                                <img src="/icons/career_row_right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="?page=career_second_level" class="career_card">
+                    <div class="career_content_block_rows">
+                        <div class="career_content_block_rows_col1">Название карьера</div>
+                        <div class="career_content_block_rows_col2">г. Сангымгорт</div>
+                        <div class="career_content_block_rows_col3">
+                            <div>Щебень</div>
+                            <div>Песок</div>
+                            <div>Гранит</div>
+                        </div>
+                        <div class="career_content_block_rows_col4_block">
+                            <div class="career_content_block_rows_col4">
+                                <img src="/icons/career_row_right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="career_second_level.html" class="career_card">
+                    <div class="career_content_block_rows">
+                        <div class="career_content_block_rows_col1">Название карьера</div>
+                        <div class="career_content_block_rows_col2">г. Сангымгорт</div>
+                        <div class="career_content_block_rows_col3">
+                            <div>Щебень</div>
+                            <div>Песок</div>
+                            <div>Гранит</div>
+                        </div>
+                        <div class="career_content_block_rows_col4_block">
+                            <div class="career_content_block_rows_col4">
+                                <img src="/icons/career_row_right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end career_content_block-->
+
+            <div class="project_content_footerblock  career_content_footerblock">
+                <a href="#">
+                    <div class="products_section2_get_more">
+                        <div class="products_load_more">
+                            <div class="products_load_more_horizontal"></div>
+                            <div class="products_load_more_vertical"></div>
+                        </div>
+                        Загрузить ещё
+                    </div>
+                </a>
+
+                <div class="project_content_footerblock_footer_pages">
+                    <a href="?page=page_start" class="project_content_footerblock_footer_pages_number">
+                        <img src="/icons/project_arrow_left.png" alt="">
+                    </a>
+                    <a href="?page=page1" class="project_content_footerblock_footer_pages_number"> 1 </a>
+                    <a href="?page=page2" class="project_content_footerblock_footer_pages_number"> 2 </a>
+                    <a href="?page=page3" class="project_content_footerblock_footer_pages_number mobile_project_pages_number"> 3 </a>
+                    <a href="#" class="project_content_footerblock_footer_pages_number"> ... </a>
+                    <a href="?page=page7" class="project_content_footerblock_footer_pages_number mobile_project_pages_number"> 7 </a>
+                    <a href="?page=page8" class="project_content_footerblock_footer_pages_number"> 8 </a>
+                    <a href="?page=page_end" class="project_content_footerblock_footer_pages_number">
+                        <img src="/icons/project_arrow_right.png" alt="">
+                    </a>
+                </div>
+            </div><!--end project_content_footerblock-->
+
+            <div class="career_content_navigate_map  mobile_career_map forMarginTop_career_map">
+                <div class="section_6_block ">
+                    <div class="section_6_block_col1">
+                        <div class="section_6_block_col1_content">
+                            <div class="section_6_block_col1_content_content">
+                                <span data-region="RU-YAN">Ямало-Ненецкий&nbspавтономный&nbspокруг</span>
+                                <span data-region="RU-KHM">Ханты-Максийский&nbspавтономный&nbspокруг</span>
+                                <span data-region="RU-SVE">Свердловская&nbspобласть</span>
+                                <span data-region="RU-PER">Пермский&nbspкрай</span>
+                                <span data-region="RU-TYU">Тюменская&nbspобласть</span>
+                                <span data-region="RU-KO">Республика&nbspКоми</span>
+                                <span data-region="RU-BA">Республика&nbspБашкортостан</span>
+                                <span data-region="RU-NEN">Ненецкий&nbspавтономный&nbspокруг</span>
+                                <span data-region="RU-MOS">Московская&nbspобласть</span>
+                                <span data-region="RU-OMS">Омская&nbspобласть</span>
+                                <span data-region="RU-TOM">Томская&nbspобласть</span>
+                                <span data-region="RU-SA">Республика&nbspЯкутия</span>
+                                <span data-region="RU-AMU">Амурская&nbspобласть</span>
+                                <span data-region="RU-BU">Бурятия</span>
+                                <span data-region="RU-ZAB">Забайкальский&nbspкрай</span>
+                                <span data-region="RU-ARK">Архангельская&nbspобласть</span>
+                                <span data-region="RU-KR">Карелия</span>
+                                <span data-region="RU-AST">Астраханская&nbspобласть</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_6_block_col2 for_mobile_hidden">
+                        <!--                    <img src="/images/ru%202.png" alt="">-->
+                        <div id="map" style="width: 100%; height: 100%"></div>
+                    </div>
+                    <div class="mapMobail">
+                        <img src="/images/mapMobail.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div><!--end container-->
+
+
+    </div><!--end career content-->
+
+
+    <div class="container">
+        <div class="red_content">
+            <div class="footer_head_col1">
+                <div class="footer_head_col1_header">
+                    Оптовый заказ
+                </div>
+                <div class="footer_head_col1_content">
+                    По вопросам оптовых поставок обращайтесь по телефону
+                </div>
+                <div class="footer_head_col1_footer">
+                    <a href="tel:+78007000500">8 800 7000 500</a>
+                </div>
+            </div>
+            <div class="footer_head_col2">
+                <div class="footer_head_col2_block">
+                    <form action="#" method="get">
+                        <div class="footer_head_col2_block_content">
+                            <div class="footer_head_col2_block_content_row1">
+                                <input class="red_block_input" name="name" type="text" placeholder="Как вас зовут?">
+                                <input class="red_block_input" name="phone" type="text" placeholder="Номер телефона?">
+                            </div>
+                            <button class="red_block_button">
+                                <div class="red_block_coll_line">
+                                    <img src="/icons/red_bg_coll_button.svg" alt="" class="red_bg_coll_button">
+                                    <img src="/icons/white_bg_coll_button.svg" alt="" class="white_bg_coll_button">
+                                </div>
+                                <span>Заказать&nbspзвонок</span>
+                            </button>
+                        </div><!--end footer_head_col2_block_content-->
+                    </form>
+                    <div class="footer_head_col2_footer">
+                        Или оставьте заявку и наш менеджер свяжется с вами.
+                        Перезвонит в течении 2-х минут - сориентируем по цене и наличию!
+                    </div>
+                </div><!--end footer_head_col2_block-->
+            </div><!--end footer_head_col2-->
+        </div> <!--end footer_head--></div>
+
+
+    <div class="navigation_block">
+        <hr class = "all_hr">
+        <hr class="all_hr_mobile">
+        <div class="container">
+            <a href="?page=products">
+                <div class="navigation_head_row  products_navigation_left_arrow">
+                    <div class="navigation_head_row_pointer_right"></div>
+                    <div class="navigation_head_row_col1">Продукция</div>
+                </div>
+            </a>
+        </div><!--end container-->
+    </div><!--end navigation_block-->
+
+    <hr class="all_hr ">
+    <hr class="all_hr_mobile">
+    <footer class="footer widht_holder_1920 ">
+        <!--        <div class="container">-->
+        <div class="footer_block">
+            <div class="footer_content_footer_block_col1">
+                <div class="footer_content_footer_block_col1_row1">
+                    <div class="footer_content_footer_block_col1_row1_head">
+                        Контакты
+                    </div>
+                    <div class="footer_content_footer_block_col1_row1_content">
+                        <div>
+                            <a href="mailto:info@nkrss.ru">info@nkrss.ru </a>
+                        </div>
+
+                        <div>
+                            <a href="tel:+78007000500">8 800 7000 500</a>
+                        </div>
+                        <span class="footer_content_footer_block_col1_row1_content_footer">
+                            г. Новый Уренгой
+                            Промысловая ул., 23
+                        </span>
+                    </div>
+                </div><!--end footer_content_footer_block_col1_row1-->
+                <div class="footer_content_footer_block_col1_row2">
+                    <a href="?page=mainpage">
+                        <div class="header_logo_bg">
+                            <span class=""><img src="icons/logoSTK.svg" alt=""></span>
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div>
+            </div>
+            <div class="footer_content_footer_block_col2">
+                <div class="footer_content_footer_block_col2_row1">
+                    <div class="footer_content_footer_block_col2_row1_col1">
+                        <a href="?page=about_company">О компании</a>
+                        <a href="?page=services_second_level">Каталог</a>
+                        <a href="?page=services_second_level">Логистика</a>
+                        <a href="?page=services_second_level">Подрядные работы</a>
+                        <a href="?page=contacts">Контакты</a>
+                    </div>
+                    <div class="footer_content_footer_block_col2_row1_col2">
+                        <a href="?page=projects">Проекты</a>
+                        <a href="?page=about_company#about_compani_licenzAndDock"> Лицензии и документы</a>
+                        <a href="?page=about_company#about_compani_team"> Команда</a>
+                        <a href="?page=about_company#about_company_feedback">Рекоммендации</a>
+                        <a href="?page=career">Карьеры</a>
+                    </div>
+
+                </div>
+                <hr class="all_hr all_hr_footer ">
+                <div class="footer_content_footer_block_col2_row2">
+                    <div class="footer_content_footer_block_col2_row2">
+                        <div class="footer_content_footer_block_col2_row2_content">
+                            <a href="">Карта сайта</a>
+                            <br>
+                            <a href="">Политика конфинденциальности</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        </div> end container-->
+        <hr class="all_hr_mobile hr_mobile_footer">
+        <div class="container">
+            <div class="footer_info_block_mobile">
+                <div class="footer_info_block_mobile_row1">
+                    <div class="footer_info_block_mobile_col1">Информация</div>
+                    <div class="footer_info_block_mobile_col2">
+                        <div class="footer_info_block_mobile_col2_horizontal"></div>
+                        <div class="footer_info_block_mobile_col2_vertically"></div>
+                    </div>
+                </div>
+                <div class="footer_info_block_mobile_row2">
+                    <a href="?page=projects">Проекты</a>
+                    <a href="?page=about_company#about_compani_licenzAndDock"> Лицензии и документы</a>
+                    <a href="?page=about_company#about_compani_team"> Команда</a>
+                    <a href="?page=about_company#about_company_feedback">Рекоммендации</a>
+                    <a href="?page=career">Карьеры</a>
+                </div>
+            </div>
+        </div>
+        <hr class="all_hr_mobile hr_mobile_footer ">
+        <div class="container">
+            <div class="footer_content_footer_block_col2_row2 footer_content_footer_mobile">
+                <div class="footer_content_footer_mobile_col1">
+                    <a href="">Карта сайта</a>
+                    <a href="">Политика конфинденциальности</a>
+                </div>
+                <div class="footer_content_footer_mobile_col2">
+                    <a href="?page=mainpage">
+                        <div class="header_logo_bg logo_bg_footer_mobile">
+                            <span class=""><img src="/icons/logoSTK.svg" alt=""></span>
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="/map/jquery.js"></script>
+<script src="/map/jvectormap.js"></script>
+<script src="/map/jquery-jvectormap-ru-merc.js"></script>
+<script src="/map/js.js"></script>
+<script src="/dist/plyr.min.js"></script>
+<script src="/swiper.js"></script>
+<script src="/stkjs.js"></script>
+</body>
+</html>

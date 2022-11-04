@@ -1,0 +1,393 @@
+
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/map/jvectormap.css">
+    <link rel="stylesheet" href="/swiper.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="dist/plyr.css"/>
+
+</head>
+<body data-page-type="error404">
+<div class="search_background_fon"></div>
+<div class="search_block">
+    <div class="container">
+        <div class="search_block_content">
+            <div class="search_block_content_container">
+                <form action="?page=mainpage" method="get">
+                    <div class="close_search_block">
+                        <img src="/icons/closing_icon.svg" alt="">
+                    </div>
+                    <div class="search_block_continer_row1">
+                        <input type="text" name="searching" id="" placeholder="Поставил курсор и вводит текст">
+                        <button class="search_block_button">
+                            <img src="/icons/search_bg.svg" alt="">
+                            <span>Искать</span>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="search_block_continer_row2">
+                    <div class="search_block_continer_row2_header">
+                        Примеры запросов
+                    </div>
+                    <div class="search_block_continer_row2_content">
+                        <div>Песчано-щебеночные смеси</div>
+                        <div>Подрядные работы</div>
+                        <div>Гранит</div>
+                        <div>Погрузочно-разгрузочные работы</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile_search_block">
+    <div class="mobile_search_block_row1">
+        <img src="/icons/closing_icon.svg" alt="" class="mobile_search_block_close_button">
+    </div>
+    <form action="#" method="get">
+        <div class="mobile_search_block_row2">
+            <input type="text" name="name" placeholder="Введите запрос">
+            <button class="mobile_search_button"><img src="icons/search_icon.svg" alt=""> </button>
+        </div>
+    </form>
+    <div class="mobile_search_block_row3">
+        Примеры запросов
+    </div>
+    <div class="mobile_search_block_row4">
+        <div>Песчано-щебеночные смеси</div>
+        <div>Подрядные работы</div>
+        <div>Гранит</div>
+        <div>Погрузочно-разгрузочные работы</div>
+    </div>
+</div>
+
+
+<!--<img src="/images/billy-clouse-781VLZjFR8g-unsplash%20(1)%201.png" alt="">-->
+<div class="header">
+    <div class="mobile_menu_block">
+        <a href="?page=products">Продукция</a>
+        <a href="?page=services">Услуги</a>
+        <a href="?page=about_company">О компании</a>
+        <a href="?page=career">Карьеры</a>
+        <a href="?page=projects">Проекты</a>
+        <a href="?page=contacts">Контакты</a>
+        <a href="?page=mainpage">Главная</a>
+        <div class="mobile_menu_search">
+            <span class="search_for_all_mobile">Поиск</span>
+            <img src="/icons/search_icon.svg" alt="">
+        </div>
+
+        <div class="menu_line"></div>
+        <div class="mobile_menu_contacts">
+            <a href="mailto:info@nkrss.ru">info@nkrss.ru</a>
+        </div>
+        <div class="mobile_menu_contacts">
+            <a href="tel:+8007000500">8 800 7000 500</a>
+        </div>
+        <div class="mobile_menu_region">
+            г. Новый
+            <br>
+            Уренгой Промысловая ул., 23
+        </div>
+    </div>
+    <div class="container">
+        <div class="header_wrapper">
+            <div class="header_left_block">
+                <div class="header_logo">
+                    <a href="?page=mainpage">
+                        <div class="header_logo_bg">
+                            <span class="header_logo_bg_pc"><img src="icons/logoSTK.svg" alt=""></span>
+                            <div class="header_logo_bg logo_bg_footer_mobile">
+                                <span class=""><img src="/icons/logoSTK.svg" alt=""></span>
+                            </div> <!--close header_logo_bg-->
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div> <!--close header_logo-->
+                <div class="block_choose_citys">
+                    <div class="header_col_and_city_col1">
+                        <div class="choose_city" id="starting_city" data-page-type="error404">
+                            Ханты-Мансийск
+                        </div>
+                        <div class="mobile_call_message_block">
+                            <a href="tel:+78007000500">
+                                <div class="call_message">
+                                    <img src="/icons/mobile_header_phone_boder.svg" alt="">
+                                </div>
+                            </a>
+
+                            <a href="mailto:info@nkrss.ru" target="_blank" rel="noopener noreferrer">
+                                <div class="call_message">
+                                    <img src="/icons/mobile_header_massage.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_col_and_city_col2">
+                        <div class="arow" data-page-type="error404"></div>
+                    </div>
+
+                    <div class="list_of_cities">
+                        <span >Выберите ваш город</span>
+                        <form action="#" method="get">
+                            <div class="mobile_city_search_block">
+                                <input class="mobile_search_inp" type="text" name="city"  placeholder="Начните вводить название">
+                                <button class="search_city_btn">
+                                    <img src="icons/icon_search.svg" alt="" class="icon_search">
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="city_group">
+                            <ul class="all_cities">
+                                <li>Агириш</li>
+                                <li>Андра</li>
+                                <li>Барсово</li>
+                                <li>Белый Яр</li>
+                                <li>Берёзово</li>
+                                <li>Высокий</li>
+                                <li>Зеленоборск</li>
+                                <li>Игрим</li>
+                            </ul>
+                        </div><!--close sity_group-->
+                    </div> <!--close list_of_cities-->
+                </div>
+            </div> <!--close header_left_block-->
+
+            <div class="header_right_block">
+                <nav class="nav" data-page-type="error404">
+                    <a href="?page=products">
+                        <span class="four_dot" data-page-type="error404">
+                                 <div class="four_dot_group" data-page-type="error404">
+                                     <div class="dots d1"></div>
+                                     <div class="dots d2"></div>
+                                     <div class="dots d3"></div>
+                                     <div class="dots d4"></div>
+                                 </div>
+                           <span>Продукция</span>
+                        </span>
+                    </a>
+                    <a href="?page=services">Услуги</a>
+                    <a href="?page=about_company">О компании</a>
+                    <a href="?page=career">Карьеры</a>
+                    <a href="?page=projects">Проекты</a>
+                    <a href="?page=contacts">Контакты</a>
+                    <span class="search_for_all" data-page-type="error404"> </span>
+                </nav>
+            </div>
+            <!--mobile right menu-->
+            <div class="header_right_block_mobile">
+                <div class="header_right_block_mobile_menu" data-page-type="error404">
+                    <div class="header_right_block_mobile_menu_innerLins menu_innerLins_top"></div>
+                    <div class="header_right_block_mobile_menu_innerLins menu_innerLins_bottom"></div>
+                </div>
+            </div>
+            <!--end mobile right menu-->
+        </div> <!--close header_wrapper-->
+
+        <!--<div class="city_block"></div>  close list_of_cities-->
+        <div class="is_your_city_block">
+            <div class="is_your_city">Ваш город <span id="your_city"></span>?</div>
+            <div class="answer">
+                <div class="answer_yes" onclick="fixing_city()"> Да</div>
+                <div class="answer_no" onclick="transform_arow()">Нет</div>
+            </div>
+        </div>
+
+    </div> <!--close container-->
+</div> <!--close header-->
+
+<div class="orders_form_block">
+    <div class="order_form">
+        <div class="order_form_line_close">
+            <img src="/icons/closing_icon.svg" alt="">
+        </div>
+        <div class="order_form_container">
+            <div class="order_form_header">
+                Заголовок формы
+            </div>
+            <div class="order_form_content">
+                Заполните поля и наш менеджер свяжется с вами.
+            </div>
+            <div class="order_form_form_blocl">
+                <form action="" method="get" class="order_form_form">
+                    <div class="order_form_inputs_block">
+                        <input type="text" name="nema" placeholder="Иван Петрович">
+                        <input type="number" name="phone" placeholder="Номер телефона*">
+                    </div>
+                    <button class="order_btn">
+                        <div class="section_3_content_item_footer">
+                            <div class="section_3_content_item_footer_button">
+                                <div class="around_line">
+                                    <div class="arow_blocks">
+                                        <span class="arow_red_bj"></span>
+                                        <span class="arow_black_bj"></span>
+                                    </div>
+                                </div>
+                                <span class="hover_color">Отправить</span>
+                            </div>
+                        </div>
+                    </button>
+                </form>
+            </div>
+            <div class="order_form_footer">
+                Отправляя заявку, я соглашаюсь на
+                обработку моей персональной информации на условиях,
+                определенных Политикой конфиденциальности.
+            </div>
+        </div>
+    </div><!--end order_form-->
+</div>
+
+
+<div class="mobile_for_hiden_content">
+    <hr class="all_hr">
+    <hr class="all_hr_mobile">
+    <div class="error_content">
+        <div class="container">
+            <div class="all_section1_smallhead">
+                <a href="?page=mainpage">
+                    <span> Главная </span>
+                </a>
+                <span class="all_section1_smallhead_col2"> / 404</span>
+            </div>
+            <div class="error_section1">
+                <div class="error_section1_col1">
+                    <div class="all_section1_content_col1">
+                        Ошибка
+                    </div>
+                    <div class="error_section1_col1_row1">
+                        Возможно, вы ошиблись в адресе или страница была перемещена.
+
+                    </div>
+                    <div class="all_section1_content_col1_row2">
+                        <a href="mainpage.html">
+                            <button class="red_block_button">
+                                <div class="red_block_coll_line">
+                                    <img src="/icons/arrow_right_red_bj.svg" alt="" class="red_bg_coll_button">
+                                    <img src="/icons/arrow_right_white_bg.svg" alt="" class="white_bg_coll_button">
+                                </div>
+                                <span>Вернуться&nbspна&nbspглавную</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="error_section1_col2">
+                    <img src="/images/error404.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>    <hr class="all_hr ">
+    <hr class="all_hr_mobile">
+    <footer class="footer widht_holder_1920 ">
+        <!--        <div class="container">-->
+        <div class="footer_block">
+            <div class="footer_content_footer_block_col1">
+                <div class="footer_content_footer_block_col1_row1">
+                    <div class="footer_content_footer_block_col1_row1_head">
+                        Контакты
+                    </div>
+                    <div class="footer_content_footer_block_col1_row1_content">
+                        <div>
+                            <a href="mailto:info@nkrss.ru">info@nkrss.ru </a>
+                        </div>
+
+                        <div>
+                            <a href="tel:+78007000500">8 800 7000 500</a>
+                        </div>
+                        <span class="footer_content_footer_block_col1_row1_content_footer">
+                            г. Новый Уренгой
+                            Промысловая ул., 23
+                        </span>
+                    </div>
+                </div><!--end footer_content_footer_block_col1_row1-->
+                <div class="footer_content_footer_block_col1_row2">
+                    <a href="?page=mainpage">
+                        <div class="header_logo_bg">
+                            <span class=""><img src="icons/logoSTK.svg" alt=""></span>
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div>
+            </div>
+            <div class="footer_content_footer_block_col2">
+                <div class="footer_content_footer_block_col2_row1">
+                    <div class="footer_content_footer_block_col2_row1_col1">
+                        <a href="?page=about_company">О компании</a>
+                        <a href="?page=services_second_level">Каталог</a>
+                        <a href="?page=services_second_level">Логистика</a>
+                        <a href="?page=services_second_level">Подрядные работы</a>
+                        <a href="?page=contacts">Контакты</a>
+                    </div>
+                    <div class="footer_content_footer_block_col2_row1_col2">
+                        <a href="?page=projects">Проекты</a>
+                        <a href="?page=about_company#about_compani_licenzAndDock"> Лицензии и документы</a>
+                        <a href="?page=about_company#about_compani_team"> Команда</a>
+                        <a href="?page=about_company#about_company_feedback">Рекоммендации</a>
+                        <a href="?page=career">Карьеры</a>
+                    </div>
+
+                </div>
+                <hr class="all_hr all_hr_footer ">
+                <div class="footer_content_footer_block_col2_row2">
+                    <div class="footer_content_footer_block_col2_row2">
+                        <div class="footer_content_footer_block_col2_row2_content">
+                            <a href="">Карта сайта</a>
+                            <br>
+                            <a href="">Политика конфинденциальности</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        </div> end container-->
+        <hr class="all_hr_mobile hr_mobile_footer">
+        <div class="container">
+            <div class="footer_info_block_mobile">
+                <div class="footer_info_block_mobile_row1">
+                    <div class="footer_info_block_mobile_col1">Информация</div>
+                    <div class="footer_info_block_mobile_col2">
+                        <div class="footer_info_block_mobile_col2_horizontal"></div>
+                        <div class="footer_info_block_mobile_col2_vertically"></div>
+                    </div>
+                </div>
+                <div class="footer_info_block_mobile_row2">
+                    <a href="?page=projects">Проекты</a>
+                    <a href="?page=about_company#about_compani_licenzAndDock"> Лицензии и документы</a>
+                    <a href="?page=about_company#about_compani_team"> Команда</a>
+                    <a href="?page=about_company#about_company_feedback">Рекоммендации</a>
+                    <a href="?page=career">Карьеры</a>
+                </div>
+            </div>
+        </div>
+        <hr class="all_hr_mobile hr_mobile_footer ">
+        <div class="container">
+            <div class="footer_content_footer_block_col2_row2 footer_content_footer_mobile">
+                <div class="footer_content_footer_mobile_col1">
+                    <a href="">Карта сайта</a>
+                    <a href="">Политика конфинденциальности</a>
+                </div>
+                <div class="footer_content_footer_mobile_col2">
+                    <a href="?page=mainpage">
+                        <div class="header_logo_bg logo_bg_footer_mobile">
+                            <span class=""><img src="/icons/logoSTK.svg" alt=""></span>
+                        </div> <!--close header_logo_bg-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="/map/jquery.js"></script>
+<script src="/map/jvectormap.js"></script>
+<script src="/map/jquery-jvectormap-ru-merc.js"></script>
+<script src="/map/js.js"></script>
+<script src="/dist/plyr.min.js"></script>
+<script src="/swiper.js"></script>
+<script src="/stkjs.js"></script>
+</body>
+</html>
